@@ -1,3 +1,11 @@
+Day 36
+=====
+
+Review Modalification
+
+Assignment: Complete lab
+
+
 
 Remotify'ing a Form
 ===
