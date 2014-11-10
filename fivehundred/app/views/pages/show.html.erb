@@ -1,0 +1,6 @@
+
+<% @pictures.each do |picture| %>
+  <%= link_to picture.photo.url(:large) do %>
+    <%= image_tag picture.photo.url(:lemedium) %>
+  <% end %>
+<% end %>
