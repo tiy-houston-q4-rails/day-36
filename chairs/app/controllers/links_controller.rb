@@ -12,7 +12,7 @@ class LinksController < ApplicationController
   end
 
   def create
-    @link = Link.new(params.require(:link).permit(:url))
+    @link = Link.new(params.require(:link).permit(:url, :text))
     if @link.save
       @links = Link.all
       @link = Link.new

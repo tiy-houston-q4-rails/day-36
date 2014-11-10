@@ -3,4 +3,5 @@
 <% else %>
   $("#links").html("<%=j  render partial: "links" %>");
   $("#new_link").html("<%= j render partial: "links/form" %>");
+  $("#myModal").modal("hide");
 <% end %>
