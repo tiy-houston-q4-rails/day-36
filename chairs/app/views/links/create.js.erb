@@ -1,0 +1,6 @@
+<% if @link.errors.any? %>
+  $("#new_link").html("<%= j render partial: "links/form" %>");
+<% else %>
+  $("#links").html("<%=j  render partial: "links" %>");
+  $("#new_link").html("<%= j render partial: "links/form" %>");
+<% end %>
